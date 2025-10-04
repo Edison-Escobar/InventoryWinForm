@@ -7,14 +7,25 @@ Este proyecto fue desarrollado como parte del curso **Programación II** en la U
 El sistema consiste en una aplicación de escritorio construida en C# con Windows Forms que permite gestionar inventarios de manera modular.  
 
 Entre sus principales características se encuentran:  
-- Gestión de categorías de productos (creación, edición y eliminación con validaciones).  
-- Gestión de productos (registro, validaciones de stock, precio y categoría).  
-- Control de movimientos de inventario (entradas y salidas con historial).  
-- Dashboard principal con indicadores clave (KPIs) como:  
-  - Total de productos.  
-  - Total de categorías.  
-  - Valor total del inventario.  
-  - Producto con mayor stock.  
+1. Módulo de Categorías
+- Crear, editar y eliminar categorías.
+- No permite eliminar categorías que tengan productos asociados.
+- Se muestran todas las categorías en un DataGridView.
+
+2. Módulo de Productos
+- Permite registrar productos asociados a una categoría.
+- Cada producto incluye nombre, precio y stock inicial.
+- Validaciones:
+  - Precio mayor que 0.
+  - Stock no negativo.
+  - Categoría obligatoria.
+- Los productos se muestran en un DataGridView con opción de editar o eliminar.
+
+3. Módulo de Movimientos
+- Registra *entradas* y *salidas* de productos.
+- No permite salidas si no hay stock suficiente.
+- Guarda historial de movimientos con fecha, tipo y cantidad.
+
 
 La aplicación fue diseñada para aplicar *Programación Orientada a Objetos (POO)*, validaciones de datos, diseño de interfaces gráficas y trabajo colaborativo en repositorios.
 
