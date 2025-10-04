@@ -19,7 +19,7 @@ Entre sus principales características se encuentran:
 La aplicación fue diseñada para aplicar *Programación Orientada a Objetos (POO)*, validaciones de datos, diseño de interfaces gráficas y trabajo colaborativo en repositorios.
 
 Integrantes del Grupo
-- Roberth Alexander Mlendez Sicaj – 2500461  
+- Roberth Alexander Melendez Sicaja – 2500461  
 - Edison Adrian Escobar Pérez – 2500446  
 
 🔗 Repositorio en GitHub
